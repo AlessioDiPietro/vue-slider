@@ -44,7 +44,7 @@ main {
 }
 
 .slidebox img {
-    max-width: 25%;
+    max-width: 35%;
     position: absolute;
     left: 50%;
     top: 40%;
@@ -64,8 +64,12 @@ main {
 
 .selector i {
     font-size: 40px;
-    margin: 0 8px;
-    transition: color 2s;
+    margin: 0 15px;
+    transition: color 1.5s;
+}
+
+.selezione {
+    color: lightskyblue;
 }
 
 .selector i:focus {

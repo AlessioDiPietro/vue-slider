@@ -29,8 +29,8 @@
                 <!-- selector-box -->
                 <div class="selector">
 
-                    <i class="fas fa-fingerprint"
-                    v-for="items in raccoltaImg"></i>
+                    <i :class="(index == contatore)? 'selezione' : '' " class="fas fa-fingerprint"
+                    v-for="(items, index) in raccoltaImg"></i>
                     
                 </div>
                 
