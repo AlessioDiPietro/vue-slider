@@ -3,3 +3,53 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+
+
+/* areadebug */
+/* main {
+    background-color: blue;
+} */
+
+/* fine areadebug */
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#app {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+#app  .prev i, #app .next i {
+    font-size: 10rem;
+    color: lightslategrey;
+}
+
+.slidebox {
+    position: relative;
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+.selector {
+    position: absolute;
+    background-color: grey;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    left: 50%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.selector i {
+    font-size: 40px;
+    margin: 0 8px;
+}
