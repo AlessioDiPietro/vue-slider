@@ -29,12 +29,13 @@ main {
 #root  .prev i, #root .next i {
     font-size: 10rem;
     color: lightslategrey;
+    position: relative;
 }
 
 .slidebox {
     width: 1080px;
     height: 600px;
-    position: relative;
+    
     border: 3px black solid;
     border-radius: 10px;
     padding: 3rem;
@@ -43,7 +44,11 @@ main {
 }
 
 .slidebox img {
-    width: 70%;
+    max-width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
     
 }
 
@@ -53,11 +58,16 @@ main {
     padding: 1rem 2rem;
     border-radius: 10px;
     left: 50%;
-    bottom: 0;
+    bottom: 10%;
     transform: translate(-50%, -50%);
 }
 
 .selector i {
     font-size: 40px;
     margin: 0 8px;
+    transition: color 2s;
+}
+
+.selector i:focus {
+    color: lightskyblue;
 }
