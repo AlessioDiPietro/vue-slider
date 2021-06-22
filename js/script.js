@@ -16,10 +16,17 @@ const app = new Vue ({
     methods : {
         preImg(){
 
-            if (contatore = 0){
-                this.contatore = this.contatore.length - 1;
+            if (this.contatore == 0){
+                this.contatore = this.raccoltaImg.length - 1;
             }else {
                 this.contatore--
+            }
+        },
+        proxImg(){
+            if (this.contatore == this.raccoltaImg.length - 1){
+                this.contatore = 0;
+            }else{
+                this.contatore++;
             }
         }
     }
