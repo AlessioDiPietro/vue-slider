@@ -42,6 +42,11 @@ main {
     text-align: center;
 }
 
+.slidebox img {
+    width: 70%;
+    
+}
+
 .selector {
     position: absolute;
     background-color: grey;
