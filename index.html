@@ -30,7 +30,7 @@
                 <div class="selector">
 
                     <i :class="(index == contatore)? 'selezione' : '' " class="fas fa-fingerprint"
-                    v-for="(items, index) in raccoltaImg"></i>
+                    v-for="(items, index) in raccoltaImg" @click="cambioImg(index)"></i>
                     
                 </div>
                 

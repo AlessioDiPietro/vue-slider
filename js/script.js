@@ -28,6 +28,9 @@ const app = new Vue ({
             }else{
                 this.contatore++;
             }
+        },
+        cambioImg(numIndiceImg){
+            this.contatore = numIndiceImg;
         }
     }
 });
