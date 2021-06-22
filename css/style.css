@@ -33,9 +33,8 @@ main {
 }
 
 .slidebox {
-    width: 1080px;
     height: 600px;
-    
+    background-color: rgb(56, 141, 238, 0.2);
     border: 3px black solid;
     border-radius: 10px;
     padding: 3rem;
@@ -72,6 +71,3 @@ main {
     color: lightskyblue;
 }
 
-.selector i:focus {
-    color: lightskyblue;
-}
