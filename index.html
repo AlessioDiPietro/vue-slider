@@ -14,23 +14,26 @@
 </head>
 <body>
     <main>
-        <div id="app">
+        <div id="root">
 
 
             <!-- bottone prev -->
-            <div class="prev">
+            <div class="prev" @click="preImg()">
                 <i class="fas fa-arrow-circle-left"></i>
             </div>
 
             <!-- slidebox -->
             <div class="slidebox">
-                <img src="img/img-1.jpg" alt="Roma">
+                <img :src="raccoltaImg[contatore]" alt="Roma">
+
+                <!-- selector-box -->
                 <div class="selector">
                     <i class="fas fa-fingerprint"></i>
                     <i class="fas fa-fingerprint"></i>
                     <i class="fas fa-fingerprint"></i>
                     <i class="fas fa-fingerprint"></i>
                 </div>
+                
             </div>
 
             <!-- bottone next -->

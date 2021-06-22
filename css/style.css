@@ -19,23 +19,27 @@ main {
     
 }
 
-#app {
+#root {
     width: 80%;
     height: 90%;
     display: flex;
     align-items: center;
 }
 
-#app  .prev i, #app .next i {
+#root  .prev i, #root .next i {
     font-size: 10rem;
     color: lightslategrey;
 }
 
 .slidebox {
+    width: 1080px;
+    height: 600px;
     position: relative;
     border: 3px black solid;
     border-radius: 10px;
     padding: 3rem;
+    width: 70%;
+    text-align: center;
 }
 
 .selector {
@@ -44,9 +48,8 @@ main {
     padding: 1rem 2rem;
     border-radius: 10px;
     left: 50%;
-    right: 10%;
+    bottom: 0;
     transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 .selector i {
